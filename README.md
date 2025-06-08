@@ -32,23 +32,15 @@ CloudGuard is a Python-based tool that automates security misconfiguration scann
 
 ## Screenshots
 
-- Azure Monitor Alert Trigger  
-  ![Azure Monitor](screenshots/azure_monitor_alert.png)
-- Power BI Dashboard  
-  ![Power BI](screenshots/powerbi_dashboard_sample.png)
-- Teams Webhook Notification  
-  ![Teams Webhook](screenshots/teams_webhook_alert.png)
+Please find in screenshots
 
 ## Output Samples
 
-- [cloudguard_scan_output.txt](logs/cloudguard_scan_output.txt)  
-- [misconfig_summary.json](logs/misconfig_summary.json)
+Please find in logs
 
 ## Setup Instructions
 
 See [setup.md](./setup.md) for full installation and configuration steps.
 
-## Contact
-
 Built by Rohit Sharda  
-[LinkedIn](https://linkedin.com/in/rohitsharda) | rohitsharda.dev@gmail.com
+
