@@ -1,1 +1,43 @@
+## CloudGuard Scan Output – 2025-04-27
+
+Total Resources Scanned: 58
+
+Misconfigurations Detected:
+- 12 NSGs with open inbound rules to 0.0.0.0
+- 8 Storage accounts with public blob access enabled
+- 3 users with Contributor role instead of Reader
+
+Critical Findings: 9
+Medium Findings: 11
+Low Findings: 3
+
+Teams alert sent: YES
+Power BI dataset updated: YES
+Scan status: COMPLETED
+
+## misconfig_summary.json
+
+{
+  "scan_date": "2025-04-27",
+  "total_resources": 58,
+  "findings": {
+    "NSGs": {
+      "open_rules": 12
+    },
+    "Storage": {
+      "public_access": 8
+    },
+    "AzureAD": {
+      "overprivileged_users": 3
+    }
+  },
+  "summary": {
+    "critical": 9,
+    "medium": 11,
+    "low": 3
+  },
+  "status": "COMPLETED",
+  "report_sent": true
+}
+
 
